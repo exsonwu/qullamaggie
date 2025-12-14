@@ -1,333 +1,531 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Qullamaggie - 3 TIMELESS Setups That Made Me Tens of Millions</title>
-  <style>
-    :root {
-      --bg: #ffffff;
-      --text: #1a1a1a;
-      --link: #1e6ff0;
-      --code-bg: #f5f5f5;
-      --border: #e0e0e0;
-    }
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Qullamaggie - 3 TIMELESS setups that have made me TENS OF MILLIONS!</title>
+    <style>
+        :root {
+          --bg: #ffffff;
+          --text: #121212;
+          --link: #1a0dab;
+          --border: #e0e0e0;
+          --code-bg: #f8f9fa;
+          --img-border: #ddd;
+        }
 
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg: #121212;
-        --text: #e0e0e0;
-        --link: #4da6ff;
-        --code-bg: #1e1e1e;
-        --border: #333333;
-      }
-    }
+        @media (prefers-color-scheme: dark) {
+          :root {
+            --bg: #121212;
+            --text: #e0e0e0;
+            --link: #8ab4f8;
+            --border: #333;
+            --code-bg: #1e1e1e;
+            --img-border: #444;
+          }
+        }
 
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
 
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      font-size: 1.6rem;
-      line-height: 1.7;
-      color: var(--text);
-      background-color: var(--bg);
-      padding: 2rem 1rem;
-      max-width: 900px;
-      margin: 0 auto;
-    }
+        body {
+          font-family: "Segoe UI", "Microsoft YaHei",Roboto, "Helvetica Neue", system-ui, sans-serif;
+          font-size: 1.6rem;
+          line-height: 1.7;
+          color: var(--text);
+          background-color: var(--bg);
+          padding: 2rem 1rem;
+          max-width: 960px;
+          margin: 0 auto;
+        }
 
-    h1, h2, h3 {
-      margin-top: 1.8rem;
-      margin-bottom: 1rem;
-      font-weight: 600;
-    }
+        header {
+          margin-bottom: 2.5rem;
+          padding-bottom: 1.5rem;
+          border-bottom: 1px solid var(--border);
+        }
 
-    h1 {
-      font-size: 3.2rem;
-    }
+        h1 {
+          font-size: 3.2rem;
+          margin-bottom: 0.5rem;
+        }
 
-    h2 {
-      font-size: 2.4rem;
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 0.4rem;
-    }
+        .post-meta {
+          font-size: 1.0rem;
+          color: #5f6368;
+          margin-top: 0.5rem;
+        }
 
-    p {
-      margin-bottom: 1.2rem;
-    }
+        .post-meta a {
+          color: var(--link);
+        }
 
-    a {
-      color: var(--link);
-      text-decoration: none;
-    }
+        article > p,
+        article > ul,
+        article > ol,
+        article > blockquote {
+          margin-bottom: 1.4rem;
+        }
 
-    a:hover {
-      text-decoration: underline;
-    }
+        a {
+          color: var(--link);
+          text-decoration: none;
+        }
 
-    .post-meta {
-      font-size: 1.2rem;
-      color: #666;
-      margin-bottom: 1.5rem;
-    }
+        a:hover {
+          text-decoration: underline;
+        }
 
-    blockquote {
-      margin: 1.5rem 0;
-      padding-left: 1.2rem;
-      border-left: 4px solid var(--link);
-      color: var(--text);
-      font-style: italic;
-    }
+        strong {
+          font-weight: 600;
+        }
 
-    code {
-      background: var(--code-bg);
-      padding: 0.2em 0.4em;
-      border-radius: 4px;
-      font-family: Consolas, Monaco, monospace;
-      font-size: 0.95em;
-    }
+        code {
+          font-family: Consolas, Monaco, monospace;
+          background: var(--code-bg);
+          padding: 0.15em 0.3em;
+          border-radius: 3px;
+          font-size: 1.0em;
+        }
 
-    ul, ol {
-      margin-left: 1.5rem;
-      margin-bottom: 1.2rem;
-    }
+        blockquote {
+          border-left: 3px solid var(--link);
+          padding-left: 1.2rem;
+          color: var(--text);
+          font-style: italic;
+          margin: 1.8rem 0;
+        }
 
-    li {
-      margin-bottom: 0.5rem;
-    }
+        img {
+          max-width: 100%;
+          height: auto;
+          display: block;
+          margin: 1.2rem auto;
+          border: 1px solid var(--img-border);
+          border-radius: 4px;
+          background: var(--code-bg);
+        }
 
-    .example {
-      background: var(--code-bg);
-      padding: 1rem;
-      border-radius: 6px;
-      margin: 1.5rem 0;
-      font-family: monospace;
-    }
+        figcaption {
+          text-align: center;
+          font-size: 0.9rem;
+          color: #666;
+          margin-top: 0.4rem;
+        }
 
-    .note {
-      background: #fff8e1;
-      color: #5d4037;
-      padding: 1rem;
-      border-left: 4px solid #ffc107;
-      margin: 1.5rem 0;
-    }
+        footer {
+          margin-top: 3rem;
+          padding-top: 1.5rem;
+          border-top: 1px solid var(--border);
+          font-size: 0.9rem;
+          color: #70757a;
+        }
 
-    @media (prefers-color-scheme: dark) {
-      .note {
-        background: #2c2920;
-        color: #d7ccc8;
-        border-left-color: #ffb300;
-      }
-    }
+        footer a {
+          color: var(--link);
+        }
 
-    footer {
-      margin-top: 3rem;
-      padding-top: 1.5rem;
-      border-top: 1px solid var(--border);
-      font-size: 0.9rem;
-      color: #777;
-    }
-  </style>
+        @media (max-width: 600px) {
+          body {
+            padding: 1.5rem 0.8rem;
+          }
+          h1 {
+            font-size: 1.5rem;
+          }
+        }
+    </style>
 </head>
 <body>
 
-  <header>
-    <h1><a href="https://qullamaggie.com/">Qullamaggie</a></h1>
-    <p class="post-meta">A trading journey<br>
-      <strong><a href="https://qullamaggie.com/my-3-timeless-setups-that-have-made-me-tens-of-millions/">3 TIMELESS setups that have made me TENS OF MILLIONS!</a></strong><br>
-      January 8, 2021<br>
-      Posted by <a href="https://qullamaggie.com/author/">Kristjan Kullamägi</a>
-    </p>
-  </header>
+<header>
+    <h1>
+        <a href="https://www.google.com/url?q=https://qullamaggie.com/&sa=D&source=editors&ust=1765686613621032&usg=AOvVaw3okXOKNod_pqsd7LEx796z">Qullamaggie</a>
+    </h1>
+    <div class="post-meta">
+        A trading journey<br>
+        <strong>
+            <a href="https://www.google.com/url?q=https://qullamaggie.com/my-3-timeless-setups-that-have-made-me-tens-of-millions/&sa=D&source=editors&ust=1765686613621451&usg=AOvVaw3IEHcT7L8L0kpDoFvq6TyB">3
+                TIMELESS setups that have made me TENS OF MILLIONS!</a>
+        </strong><br>
+        <a href="https://www.google.com/url?q=https://qullamaggie.com/my-3-timeless-setups-that-have-made-me-tens-of-millions/&sa=D&source=editors&ust=1765686613621778&usg=AOvVaw3mxckY4tRbmv8mSFqFFYyT">January
+            8, 2021</a><br>
+        Posted by
+        <a href="https://www.google.com/url?q=https://qullamaggie.com/author/&sa=D&source=editors&ust=1765686613621877&usg=AOvVaw2OkIZH8KioCr8A5fJS5917">Kristjan
+            Kullamägi</a>
+    </div>
+</header>
 
-  <main>
-    <p><em>Spread the love 传播爱</em></p>
+<article>
+    <p>Spread the love 传播爱</p>
 
-    <p>过去几年，我通过交易三种简单且永恒的组合赚了数千万美元。这些股票交易分别发生在去年、十年前、五十年前和100+年前。它们一再发生。它们发生在日本市场，瑞典市场，印度市场。美国股市是所有市场中最大、最凶猛的，因此如果你有一个有利的组合，它是最好的猎场。</p>
+    <p>I have made tens of millions the past few years trading 3 simple, timeless setups. These setups occured last
+        year, 10 years ago, 50 years ago and 100+ years ago. They occur over and over again. They occur in the Japanese
+        market, they occur in the Swedish market, they occur in the Indian market. The U.S. stock markets are the
+        biggest and baddest of them all and therefore the best hunting grounds if you have a setup with an edge.</p>
+    <p>
+        过去几年，我通过交易三种简单且永恒的组合赚了数千万美元。这些股票交易分别发生在去年、十年前、五十年前和100+年前。它们一再发生。它们发生在日本市场，瑞典市场，印度市场。美国股市是所有市场中最大、最凶猛的，因此如果你有一个有利的组合，它是最好的猎场。</p>
 
-    <h2>这三种配置分别是：</h2>
+    <p>These 3 setups are:</p>
+    <p>这三种配置分别是：</p>
+
     <ul>
-      <li><strong>Breakouts</strong>（突围事件）<br>
-        （如果你想学习这个设置，这是必看的视频：<a href="https://www.youtube.com/watch?v=xx8GvtAxilk&feature=youtu.be&t=1">https://www.youtube.com/watch?v=xx8GvtAxilk</a>）<br>
-        <em>注：那是我版主的 YouTube 频道，不是我的</em>
-      </li>
-      <li><strong>The Episodic Pivot (EP)</strong>《分集转折》（EP）</li>
-      <li><strong>The Parabolic short (or long)</strong> 抛物线短（或长）</li>
+        <li>
+            Breakouts (if you want to learn this setup this is a mandatory video:
+            <a href="https://www.google.com/url?q=https://www.youtube.com/watch?v%3Dxx8GvtAxilk%26feature%3Dyoutu.be%26t%3D1&sa=D&source=editors&ust=1765686613622868&usg=AOvVaw0Qyk4h2ebYMnbBnB9UXp9m">&feature=youtu.be
+                [&t=1](https://www.google.com/url?q=https://www.youtube.com/watch?v%3Dxx8GvtAxilk%26feature%3Dyoutu.be%26t%3D1&sa=D&source=editors&ust=1765686613622868&usg=AOvVaw0Qyk4h2ebYMnbBnB9UXp9m)</a>
+            分组（如果你想学习这个设置，这是必看的视频：https://www.youtube.com/watch?v=xx8GvtAxilk &feature=youtu.be &t=1
+            Note: that ’s one of my moderator Youtube channel, not mine)
+        </li>
+        <li>The Episodic Pivot (EP) 《分集转折》（EP）</li>
+        <li>The Parabolic short (or long)抛物线短（或长）</li>
     </ul>
 
-    <p>在详细讲述买入地点、锁定利润、仓位规模以及在亏损交易中止步之前，我想先谈谈仓位规模和风险。</p>
+    <p>I don ’t believe you should ever have more than 30% of your account over night in any stock or ETF. Intraday you
+        can do more since you don ’t have to deal with potential over night gaps.</p>
+    <p>我认为你在任何股票或 ETF 中都不应持有超过 30% 的账户隔夜资金。盘中交易可以做得更多，因为不用担心潜在的隔夜缺口。</p>
 
-    <p>我认为你在任何股票或 ETF 中都不应持有超过 30% 的账户隔夜资金。盘中交易可以做得更多，因为不用担心潜在的隔夜缺口。我的大多数头寸只占账户规模的 10% 到 20%。我大多数交易的风险通常在 0.25–1%。我很少在任何交易中冒超过账户 1% 的风险。</p>
+    <p>Most of my positions are 10-20% of account size.</p>
+    <p>我的大多数头寸只占账户规模的10% 到20% 。</p>
 
-    <p>当我的账户还很小，不到几百万时，我承担的风险更高，可能只有 0.5% 到 1.5%。一开始我冒险更多，但说实话，我对风险和位置尺寸的概念理解并不深。</p>
+    <p>My risk on most trades is usually 0.25-1%. I rarely risk more than 1% of my account on any trade.</p>
+    <p>我大多数交易的风险通常在0.25-1% 。我很少在任何交易中冒超过账户1% 的风险。</p>
 
-    <h2>好了，让我们开始准备！</h2>
+    <p>When my accounts were small, less than a few million, I risked more, maybe 0.5-1.5%.</p>
+    <p>当我的账户还很小，不到几百万时，我承担的风险更高，可能只有0.5% 到1.5% 。</p>
 
-    <h3>Breakouts 突围事件</h3>
-    <p>如果你研究过去 100 年中成千上万个最大赢家股票，它们往往是阶梯式的波动。也就是说，它们会先做出 20–50%+ 的涨幅，然后回撤并横盘一段时间，然后再做一次。大多数领先股票都是这样表现的。</p>
+    <p>At the very beginning I risked more still, but honestly I had not a great grasp of the concept risk and position
+        sizing in the beginning.</p>
+    <p>一开始我冒险更多，但说实话，我对风险和位置尺寸的概念理解并不深。</p>
+
+    <p>Okay, let’s get to the setups!</p>
+    <p>好了，让我们开始准备！</p>
+
+    <p>Breakouts 突围事件</p>
+
+    <p>If you study thousands of the biggest winning stocks over the past 100 years they tend to move in stair steps.
+        Meaning they will make a 20-50%+ move, pull back and go sideways for a while, then make another move. This is
+        how most leading stocks act.</p>
+    <p>如果你研究过去100 年中成千上万个最大赢家股票，它们往往是阶梯式的波动。也就是说，它们会先做出20-50%+
+        的涨幅，然后回撤并横盘一段时间，然后再做一次。大多数领先股票都是这样表现的。</p>
+
+    <p>This pattern is something we as traders can use to our advantage, to get an edge.</p>
     <p>这种形态是我们交易者可以利用的优势，从而获得优势。</p>
 
-    <h4>如何找到这些设置？</h4>
-    <p>在这三个时间段内，寻找涨幅最高的 1% 或 2% 股票：</p>
+    <p>How to find these setups?</p>
+    <p>如何找到这些设置？</p>
+
+    <p>Scan for the 1 or 2% of stocks that are up the most over these 3 timeframes</p>
+    <p>在这三个时间段内，寻找涨幅最高的1% 或2% 股票</p>
     <ul>
-      <li>1-month（一个月）</li>
-      <li>3-month（三个月）</li>
-      <li>6-month（六个月）</li>
+        <li>1-month 一个月</li>
+        <li>3-month 3 个月</li>
+        <li>6-month 6 个月</li>
     </ul>
+    <p>This is how you find the stocks that are leading right now.</p>
     <p>这就是你找到当前领先股票的方法。</p>
 
-    <h4>这个设置有三个步骤：</h4>
+    <p>There are 3 steps to this setup:</p>
+    <p>这个设置有三个步骤：</p>
     <ol>
-      <li>过去 1–3 个月内有一次大幅上涨。这种涨幅可能在 30% 到 100%+ 之间，通常持续几天到几周。</li>
-      <li>盘整阶段将有序回调和盘整，低点更高，区间收窄。</li>
-      <li>从盘整中实现区间扩张（突破）。盘整阶段通常为 2 周到 2 个月。盘整期间，股价会“冲浪”上涨的 10 日和 20 日，有时还会跌入 50 日移动平均线。</li>
+        <li>A big move higher sometime in the past 1-3 months. This move can be anywhere from 30-100%+ and usually lasts
+            a few days to a few weeks.
+        </li>
+        <li>过去1-3 个月内有一次大幅上涨。这种涨幅可能在30% 到100%+ 之间，通常持续几天到几周。</li>
+        <li>An orderly pullback and consolidation with higher lows and tightening range in the consolidation phase.</li>
+        <li>盘整阶段将有序回调和盘整，低点更高，区间收窄。</li>
+        <li>A range expansion (breakout) out of that consolidation. The consolidation phase is usually 2 weeks to 2
+            months. During the consolidation the stock price “surfs ” the rising 10- and 20-day. and sometimes toe
+            50-day moving average.
+        </li>
+        <li>从盘整中实现区间扩张（突破）。盘整阶段通常为2 周到2 个月。盘整期间，股价会“冲浪”上涨的10 日和20 日。有时还会跌入50
+            日移动平均线。
+        </li>
     </ol>
 
-    <h4>你如何交换这种配置？</h4>
+    <p>How do you trade this setup?</p>
+    <p>你如何交换这种配置？</p>
     <ul>
-      <li><strong>识别出这些设置。</strong> 你需要在市场开盘前准备好观察名单。你可能还应该设置提醒，并清楚你想买多少股。</li>
-      <li><strong>从开盘区间高点入手。</strong> 开盘区间高点可以是第一个 1 分钟蜡烛、5 分钟蜡烛或 60 分钟蜡烛的高点（在 60 分钟时间框架中，第一根蜡烛总是只有 30 分钟，9:30–10 AM）。你可以选择任意时间框架或两者组合。你甚至不必使用任何盘中图，只需看日线图，在股票开始突破时入市。</li>
-      <li>这种方法也可以通过预判爆痘来替代，但我觉得效果不如预期，需要更多的技巧和经验。</li>
-      <li><strong>止损始终是当天的低点</strong>，止损不应比股票的 ATR 或 ADR 宽，以防止风险/回报机制失衡。所以如果股票的 ADR 是 5%，你的止损宽度不应超过 5%。如果 ATR 是 50c，那么止损宽度不应超过 50c。</li>
-      <li>你应该在 3–5 天后卖出 1/3 到 1/2 的仓位，然后将止损调整到收支平衡。剩余仓位应以 10 日或 20 日移动平均线为尾随。这取决于股票的走势有多快。如果是初学者，建议坚持 10 日。你等待第一个收盘价低于 10 天。</li>
+        <li>Identify the setups. You need to have a watchlist ready before the market open. You should also probably
+            have alerts set, and know how many shares you want to buy.
+        </li>
+        <li>识别出这些设置。你需要在市场开盘前准备好观察名单。你可能还应该设置提醒，并清楚你想买多少股。</li>
+        <li>Enter on the opening range highs. The opening range highs can be the highs of the first 1-minute candle, the
+            5-minute candle or the 60-minute candle (on the 60-minute timeframe the first candle is always only 30
+            minutes, 9.30-10 AM). You can use whatever timeframe or a combination of them. You don ’t even have to use
+            any intraday chart, just look at the daily chart and enter when the stock is starting to break out.
+        </li>
+        <li>从开盘区间高点入手。开盘区间高点可以是第一个 1 分钟蜡烛、5 分钟蜡烛或 60 分钟蜡烛的高点（在 60
+            分钟时间框架中，第一根蜡烛总是只有 30 分钟，9 ：30-10AM ）。你可以选择任意时间框架或两者组合。你甚至不必使用任何盘中图，只需看日线图，在股票开始突破时入市。
+        </li>
+        <li>This method can also be traded by anticipating the breakout but I don ’t find it as effective and more skill
+            and experience is needed.
+        </li>
+        <li>这种方法也可以通过预判爆痘来替代，但我觉得效果不如预期，需要更多的技巧和经验。</li>
+        <li>Stop is always lows of the day and stop should not be wider than the ATR or ADR of the stock, to prevent the
+            risk/reward mechanics getting out of whack. So if the ADR of the stock is 5%, your stop shouldn ’t be wider
+            than 5%. If the ATR if 50c, then stop should not be wider than 50c.
+        </li>
+        <li>止损始终是当天的低点，止损不应比股票的 ATR 或 ADR 宽，以防止风险/回报机制失衡。所以如果股票的 ADR 是 5%
+            ，你的止损宽度不应超过 5% 。如果 ATR 是 50c ，那么止损宽度不应超过 50c 。
+        </li>
+        <li>You should sell 1/3 to 1/2 of the position after 3-5 days, and then move the stop to break even. The rest of
+            the position should be trailed with the 10- or the 20-day moving average. Depends on how fast the stock is.
+            If a beginner stick to the 10-day. You wait for the first CLOSE below the 10- day.
+        </li>
+        <li>你应该在3-5 天后卖出1/3 到1/2 的仓位，然后将止损调整到收支平衡。剩余仓位应以10 日或20
+            日移动平均线为尾随。这取决于股票的走势有多快。如果是初学者，建议坚持10 日。你等待第一个收盘价低于10 天。
+        </li>
     </ul>
 
-    <p>在牛市中，如果你擅长选择配置，通常会做出初始风险 10–20+ 的走势。</p>
+    <p>In a bullish market it is very common to get moves that are 10-20x+ your initial risk if you are good at setup
+        selection.</p>
+    <p>在牛市中，如果你擅长选择配置，通常会做出初始风险10-20+ 的走势。</p>
+
+    <p>There are variations of this setup but the premise stays the same.</p>
     <p>这种设定有多种变体，但前提保持不变。</p>
 
-    <p>我是波段交易者，使用日线图来寻找这些布局，但这种布局同样适用于周线图和日内（1 分钟和 5 分钟）图表。在日内时间框架内，这种布局被一些人称为“圣杯”，日内有时称为“高位紧绷旗帜”。它基本上是平坦的通道、对称和下降三角形。我甚至画了线来说明下面两个例子。</p>
+    <p>I am a swing trader and use the daily chart to find these setups, but this setups also works on the weekly chart
+        and the intraday (1- and 5-minute) charts. On the intraday timeframe this setup is called Holy Grail by some on
+        the daily it can be called a hight tight flags sometimes. It ’s pretty much flat channels, symmertrical and
+        descending triangles. I ’ve even drawn the lines to illustrate this on 2 of the examples below.</p>
+    <p>我是波段交易者，使用日线图来寻找这些布局，但这种布局同样适用于周线图和日内（1 分钟和5
+        分钟）图表。在日内时间框架内，这种布局被一些人称为“圣杯”，日内有时称为“高位紧绷旗帜”。它基本上是平坦的通道、对称和下降三角形。我甚至画了线来说明下面两个例子。</p>
 
-    <p>我举了 3 个间隔 5–10 年的突破型组合例子。</p>
+    <p>I am providing 3 examples of breakout setups with 5-10 years between them.</p>
+    <p>我举了3 个间隔5-10 年的突破型组合例子。</p>
 
-    <div class="example">
-      <p>$TSLA from 2020 before and after:<br>
-        2020 年前后 $TSLA：</p>
-      <p>$MNKD from 2013, before and after:<br>
-        2013 年 $MNKD，前后：</p>
-      <p>$AAXN ($TASR) from 2004), before and after:<br>
-        $AAXN（$TASR）自 2004 年起），之前和之后：</p>
-    </div>
+    <p>$TSLA from 2020 before and after:<br>2020 年前后$TSLA：</p>
+    <img src="images/image5.png" alt="$TSLA from 2020">
 
+    <p>$MNKD from 2013, before and after:<br>2013 年$MNKD，前后：</p>
+    <img src="images/image6.png" alt="$MNKD from 2013">
+
+    <p>$AAXN ($TASR) from 2004), before and after:<br>$AAXN（$TASR）自 2004 年起），之前和之后：</p>
+    <img src="images/image7.png" alt="$AAXN from 2004">
+
+    <p>If you look closely, there are additional setups on these stocks.</p>
     <p>仔细看，这些股票还有其他设置。</p>
 
-    <h3>Episodic Pivot (EP) 分集式转折（EP）</h3>
+    <p>Episodic Pivot (EP) 分集式转折（EP）</p>
+
+    <p>When unexpected good news hits a stock, especially if that stock is neglected, that can trigger multi-month, and
+        multi-year moves.</p>
     <p>当意外的好消息袭击某只股票，尤其是当该股票被忽视时，这可能引发数月甚至多年波动。</p>
 
+    <p>There are many types of EPs:</p>
     <p>EP 有多种类型：</p>
     <ul>
-      <li>Earnings and earnings guidance（盈利及盈利指引）</li>
-      <li>Government regulations, political stuff（政府法规，政治事务）</li>
-      <li>Biotech related like drug trial results or FDA decisions（与生物技术相关的，比如药物试验结果或 FDA 的决定）</li>
-      <li>Macro and political related（宏观与政治相关）</li>
-      <li>…还有更多！</li>
+        <li>Earnings and earnings guidance 盈利及盈利指引</li>
+        <li>Government regulations, political stuff 政府法规，政治事务</li>
+        <li>Biotech related like drug trial results or FDA decisions 与生物技术相关的，比如药物试验结果或 FDA 的决定</li>
+        <li>Macro and political related 宏观与政治相关</li>
+        <li>…and many more! …还有更多！</li>
     </ul>
 
+    <p>The main ones I focus on are earnings and earnings guidance. When a stock reports unexpected good earnings and
+        guidance, that is often a catalyst for a big and prolonged move.</p>
     <p>我主要关注的是盈利和盈利指引。当股票发布意外的良好盈利和指引时，往往是推动大幅且持久行动的催化剂。</p>
 
-    <p>让我们来看看 2016 年和 2017 年的 $NVDA。</p>
-    <p>看看最左边的红色箭头处发生了什么。股价因盈利数据大幅上涨，分析师预期大幅超出预期。真是个大惊喜。看看成交量，那天成交量是平均值的好几倍。看看它接下来几个月的表现。</p>
+    <p>Let ’s take a look at $NVDA from 2016 and 2017.</p>
+    <p>让我们来看看 2016 年和 2017 年的$NVDA 。</p>
 
-    <p>现在中间的红色箭头，股价略有上涨但随后抛售。这不是一次 EP。盈利很大，分析师的收获也很大，但这并不重要。</p>
+    <p>Look at what happened at the leftmost red arrow. The stock gapped up on big earnings numbers and a big beat to
+        analyst expectations. A big surprise. Look at the volume, it ended up having several times average volume that
+        day. Look at the move it made over the next few months.</p>
+    <p>
+        看看最左边的红色箭头处发生了什么。股价因盈利数据大幅上涨，分析师预期大幅超出预期。真是个大惊喜。看看成交量，那天成交量是平均值的好几倍。看看它接下来几个月的表现。</p>
 
-    <p>每股盈余需要是 10%+ 的缺口，且成交量应该很大，如果不是盘前期，那就是开盘后 5–10 分钟内。</p>
+    <p>Now the middle red arrow, the stock gapped up slightly but sold off. This is not an EP. The earnings were big,
+        the analyst beat was big but this didn ’t matter.</p>
+    <p>现在中间的红色箭头，股价略有上涨但随后抛售。这不是一次 EP 。盈利很大，分析师的收获也很大，但这并不重要。</p>
 
-    <p>看看最后一个红色箭头。这只股票基本上已经走势下降了 4 个月，但又迎来了一个巨大的季度，每股收益（EPS）和收入分别增长了 126% 和 48%。EPS 达到 85 美分，而分析师预期的 67 美分，再次大幅下跌。</p>
+    <p>An EP needs to be a gap of 10%+ and big volume should be there, if not in pre-market then the first 5-10 minutes
+        after the open.</p>
+    <p>每股盈余需要是10%+ 的缺口，且成交量应该很大，如果不是盘前期，那就是开盘后5-10 分钟内。</p>
 
+    <p>Look at the last red arrow. The stock had essentially been going sidewats for 4 months and had another huge
+        quarter, with EPS and Revenues growing 126% and 48% respectively. Another big beat with EPS of 85c vs analyst
+        expectations of 67c.</p>
+    <p>看看最后一个红色箭头。这只股票基本上已经走势下降了 4 个月，但又迎来了一个巨大的季度，每股收益（EPS ）和收入分别增长了
+        126% 和 48% 。EPS 达到 85 美分，而分析师预期的 67 美分，再次大幅下跌。</p>
+
+    <p>Scroll down to see what happened next.</p>
     <p>往下滚动看看接下来发生了什么。</p>
 
-    <div class="example">
-      <p>$NVDA in 2016 and 2017:<br>
-        2016 年和 2017 年的 $NVDA：</p>
-    </div>
+    <p>$NVDA in 2016 and 2017:<br>2016 年和 2017 年的$NVDA：</p>
+    <img src="images/image8.png" alt="$NVDA in 2016 and 2017">
 
-    <p>那份财报开启了持续 6 个月的波动，股价几乎翻倍。</p>
+    <p>That earnings report started a move that lasted 6 months and where the stock almost doubled.</p>
+    <p>那份财报开启了持续6 个月的波动，股价几乎翻倍。</p>
 
-    <p>下一个 是 2007 年 $FSLR。我没有那份盈利报告的确切数字，因为我是在那报告发生 10 年后才做的，但盈利和收入接近三位数，甚至三位数。看看那个差距和数量。</p>
+    <p>The next one is $FSLR in 2007. I don ’t have the exact numbers on that earnings report as I did the work on it 10
+        years after it happened but the earnings and revenue were close to triple-digit, if not triple-digit. Look at
+        that gap up and volume.</p>
+    <p>下一个 是 2007 年$FSLR 。我没有那份盈利报告的确切数字，因为我是在那报告发生 10
+        年后才做的，但盈利和收入接近三位数，甚至三位数。看看那个差距和数量。</p>
 
-    <p>2004 年 $BB（$BBRY）也是如此。</p>
+    <p>Same thing with $BB ($BBRY) in 2004.<br>2004 年$BB（$BBRY）也是如此。</p>
+    <img src="images/image9.png" alt="$FSLR in 2007">
+    <img src="images/image10.png" alt="$BB in 2004">
 
-    <p>学会这个设置，需要 4 到 8 个财报季（1 到 2 年）才能熟练掌握并理解它。一旦学会了，你几乎不需要做太多工作就能找到这些。你实际上是让它们自己来找你。</p>
+    <p>Learn this setup, it takes 4-8 earnings seasons (1-2 years) to get good at this setup and understand it.</p>
+    <p>学会这个设置，需要4 到8 个财报季（1 到2 年）才能熟练掌握并理解它。</p>
 
-    <p>制定你自己的卖出规则。你可以用 20 日或 50 日移动平均线，或者你认为最有效的方法来跟踪这些规则。</p>
+    <p>Once you learn it, you need to do very little work to find these. You literally let them come to you.</p>
+    <p>一旦学会了，你几乎不需要做太多工作就能找到这些。你实际上是让它们自己来找你。</p>
 
-    <h4>该设置的步骤包括：</h4>
+    <p>Create your own sell rules. You can trail these with the 20- or 50-day moving average, or whatever you find to
+        work the best.</p>
+    <p>制定你自己的卖出规则。你可以用20 日或50 日移动平均线，或者你认为最有效的方法来跟踪这些规则。</p>
+
+    <p>The steps to this setup are:</p>
+    <p>该设置的步骤包括：</p>
     <ol>
-      <li>Gap up 10%+（差距上升 10%+）</li>
-      <li>Big volume. 如果盘前成交量不足，就需要在开盘时进入。很多时候，最好的交易量是在开盘后的前 15–30 分钟内完成了他们的平均日成交量。</li>
-      <li>如果是与盈利或盈利指引相关的 EP，必须有显著的增长数据，最好是每股盈余和收入增长达到中高甚至三位数，并且远超分析师预期。很多时候，小股没有分析师的覆盖，你只能相信数据和成交量。</li>
-      <li>最好是在过去 3–6 个月内股价没有反弹。如果股已经在跳空区间做了数个月的大幅上涨，这对市场来说真的是意外吗？你得自己弄清楚！</li>
+        <li>Gap up 10%+</li>
+        <li>差距上升10%+</li>
+        <li>Big volume. If the volume is not there in premarket, it needs to come in at the open. Many times the best
+            ones have traded their average daily volume in the first 15-30 minutes after the open.
+        </li>
+        <li>成交量大。如果盘前成交量不足，就需要在开盘时进入。很多时候，最好的交易量是在开盘后的前15-30
+            分钟内完成了他们的平均日成交量。
+        </li>
+        <li>If an earnings or earnings guidance related EP, there has to be big growth numbers, preferably mid/high or
+            even triple digit EPS and revenue growth and a significant beat to analyst expectations. Many times the
+            smaller stocks don ’t have analyst coverage, you just have to trust the numbers and volume.
+        </li>
+        <li>如果是与盈利或盈利指引相关的 EP
+            ，必须有显著的增长数据，最好是每股盈余和收入增长达到中高甚至三位数，并且远超分析师预期。很多时候，小股没有分析师的覆盖，你只能相信数据和成交量。
+        </li>
+        <li>It ’s best if the stock has not rallied over the past 3-6 months. If the stock has already made a big, multi
+            month move into the gap-up, is it really a surprise to the market? It ’s your job to figure it out!
+        </li>
+        <li>最好是在过去3-6
+            个月内股价没有反弹。如果股已经在跳空区间做了数个月的大幅上涨，这对市场来说真的是意外吗？你得自己弄清楚！
+        </li>
     </ol>
 
-    <p><em>Happy hunting! 祝你狩猎愉快！</em></p>
+    <p>Happy hunting! 祝你狩猎愉快！</p>
 
-    <h4>你如何交换这种配置？</h4>
+    <p>How do you trade this setup?</p>
+    <p>你如何交换这种配置？</p>
     <ul>
-      <li>确定具体情况，通常可以在盘后或盘前进行，因为我们需要关注股票在新闻或财报时出现跳空。</li>
-      <li>进入开盘区间高点。ORH 可以是第一个 1 分钟、5 分钟或 60 分钟的最高点。停靠点位于当天最低点。</li>
-      <li>一旦 10 日或 20 日移动平均线超过你的初始止损，就用它们跟踪你的止损。</li>
+        <li>Identify the setup, this can usually be done in after-hours or pre-market as we are looking for stocks
+            gapping up on news/earnings.
+        </li>
+        <li>确定具体情况，通常可以在盘后或盘前进行，因为我们需要关注股票在新闻或财报时出现跳空。</li>
+        <li>Enter opening range highs. ORH can be the highs of the first 1-, 5-, or 60-minute candle. The stop is at the
+            lows of the day.
+        </li>
+        <li>进入开盘区间高点。ORH 可以是第一个 1 分钟、5 分钟或 60 分钟的最高点。停靠点位于当天最低点。</li>
+        <li>Trail your stop with the 10- or 20-day moving average once they surpass your initial stop.</li>
+        <li>一旦10 日或20 日移动平均线超过你的初始止损，就用它们跟踪你的止损。</li>
     </ul>
 
-    <h3>The Parabolic Short (or long) 抛物线短（或长）</h3>
+    <p>The Parabolic Short (or long) 抛物线短（或长）</p>
+
+    <p>Think of stocks as rubber bands, if they get really stretched short term, they can have powerful snapbacks. This
+        is by far the riskiest setup if done wrong or if you have issues with not obeying your stops.</p>
     <p>把股票看作橡皮筋，如果短期内被拉得很长，它们可以有强力的回弹。如果作不当或者你不遵守止损指令，这种配置风险最大。</p>
 
+    <p>Most of these are short setups, but sometimes there are also good long setups but they don ’t occur as often.</p>
     <p>这些大多是短距离的准备，但有时也有不错的长距离设置，只是发生得不那么频繁。</p>
 
-    <h4>以下是这个设置的步骤：</h4>
+    <p>These are the steps for this setup:</p>
+    <p>以下是这个设置的步骤：</p>
     <ol>
-      <li>股票在几天或几周内上涨 50–100%+（如果是大盘股），或者 300–1000%+（如果是小盘股）。</li>
-      <li>股票应该连续上涨 3 到 5+ 天。很多时候，股票会连续数周或几个月上涨，然后开始加速上涨，有些甚至是突然爆升。</li>
+        <li>A stock up 50-100%+ in a few days or weeks (if larger cap) or 300-1000%+ (if smaller cap).</li>
+        <li>股票在几天或几周内上涨50-100%+ （如果是大盘股），或者300-1000%+ （如果是小盘股）。</li>
+        <li>The stock should be up 3-5+ days in a row. Many times you have examples where a stock trends higher for
+            weeks or months and then starts speeding up, some just explode from nowhere.
+        </li>
+        <li>股票应该连续上涨3 到5+ 天。很多时候，股票会连续数周或几个月上涨，然后开始加速上涨，有些甚至是突然爆升。</li>
     </ol>
 
-    <h4>你如何交换这种配置？</h4>
-    <p>当你认为找到了候选时，可以做空开盘区间低点（1 分钟、5 分钟的 K 线）。你可以等待第一个红色 5 分钟的 K 线，以防股票从开盘价直升。你可以等待股票首次突破，然后反弹回 VWAP（我唯一真正用的日內指标），如果在 VWAP 失败，你可以进场（或加价）。失败可能是进入 VWAP 的第一根红色 1 分钟或 5 分钟的低点。止损点是当天的高点，或者如果 VWAP 失败，则是 VWAP 的收回。关键是找到相对紧凑且明确的止损。</p>
+    <p>How do you trade this setup?</p>
+    <p>你如何交换这种配置？</p>
+    <p>When you think you have identified a candidate you can short on the opening range lows (1-minute, 5-minute
+        candles). You can wait for the first red 5-minute candle in case the stock goes straight up from the open. You
+        can wait for the stock to have the first crack, bounce back into VWAP (the only intraday indicator I really use)
+        and if it fails at VWAP you can enter (or add). The fail could be the first red 1- or 5-minute candle into the
+        VWAP. The stop is highs of the day or if VWAP fail, a reclaim of the VWAP. The key is to get relatively tight
+        and defined stops.</p>
+    <p>当你认为找到了候选时，可以做空开盘区间低点（1 分钟、5 分钟的 K 线）。你可以等待第一个红色 5 分钟的 K
+        线，以防股票从开盘价直升。你可以等待股票首次突破，然后反弹回 VWAP （我唯一真正用的日內指标），如果在 VWAP
+        失败，你可以进场（或加价）。失败可能是进入 VWAP 的第一根红色 1 分钟或 5 分钟的低点。止损点是当天的高点，或者如果 VWAP
+        失败，则是 VWAP 的收回。关键是找到相对紧凑且明确的止损。</p>
 
-    <p>目标区域是 10 日和 20 日移动平均线，这也是这些股票通常反弹的区域。</p>
+    <p>The target area is the 10- and 20-day moving averages, that ’s where these stocks usually bounce.</p>
+    <p>目标区域是10 日和20 日移动平均线，这也是这些股票通常反弹的区域。</p>
 
+    <p>Don ’t be too early. WAIT for the right setup. Let the amateur shorts get run over, that ’s where your edge comes
+        in.</p>
     <p>别太早。等合适的布置。让业余短裤被碾过，那才是你的优势所在。</p>
 
-    <p>这种配置不像突破或 EP 那样，有时交易能获得 30–50 倍+ 的风险回报。这种配置更像 是 5–10 倍的风险回报，但如果你等待完美的配置，胜率可能会更高。</p>
+    <p>This setups is not like the Breakout or the EP where you can sometimes get a 30-50x+ risk reward on your trade.
+        This setup is more like 5-10x risk reward, but if you wait for the perfect setups your win rate is probably
+        going to be higher.</p>
+    <p>这种配置不像突破或 EP 那样，有时交易能获得 30-50 倍+ 的风险回报。这种配置更像是 5-10
+        倍的风险回报，但如果你等待完美的配置，胜率可能会更高。</p>
 
-    <div class="example">
-      <p>$LAZR in 2020, daily and 5-min intraday:<br>
-        2020 年 $LAZR，日内和日内 5 分钟：</p>
-      <p>$AIG in 2009, daily and 5-min intraday:<br>
-        2009 年 $AIG，日内和 5 分钟日内：</p>
-      <p>$AMTD in 1999 daily and 5-min intraday:<br>
-        1999 年 $AMTD 日和 5 分钟日内：</p>
-    </div>
+    <p>$LAZR in 2020, daily and 5-min intraday:<br>2020 年$LAZR，日内和日内 5 分钟：</p>
+    <img src="images/image11.png" alt="$LAZR in 2020">
 
-    <p>让我们来看看抛物线多头配置。这类配置并不常见，但只要抛物线空头在几天内跌落 50–60%++，这就是多头配置的前提。入场点是开盘区间高点、首个绿色 5 分钟蜡烛，或者任何区间突破，如果股票开盘不反弹（通常会的）。这些股票几天内可能会反弹 50% 到 100%。</p>
+    <p>$AIG in 2009, daily and 5-min intraday:<br>2009 年$AIG，日内和 5 分钟日内：</p>
+    <img src="images/image12.png" alt="$AIG in 2009">
 
-    <div class="example">
-      <p>$GBTC in 2017, daily and 5-min intraday:<br>
-        2017 年 $GBTC，每日和 5 分钟日内：</p>
-    </div>
+    <p>$AMTD in 1999 daily and 5-min intraday:<br>1999 年$AMTD 日和 5 分钟日内：</p>
+    <img src="images/image13.png" alt="$AMTD in 1999">
+
+    <p>Let ’s take a look at a parabolic long setup. These are not very common but any time a successful parabolic short
+        goes down 50-60%+ in a few days, that ’s the premise for the long setup. Entry is opening range highs or the
+        first green 5-minute candle or any range break to the upside if the stock doesn ’t rally out of the gate, which
+        they usually do. These things can bounce 50-100% in a few days.</p>
+    <p>让我们来看看抛物线多头配置。这类配置并不常见，但只要抛物线空头在几天内跌落50-60%++ ，这就是多头配置的前提。入场点是开盘区间高点、首个绿色5
+        分钟蜡烛，或者任何区间突破，如果股票开盘不反弹（通常会的）。这些股票几天内可能会反弹50% 到100% 。</p>
+
+    <p>$GBTC in 2017, daily and 5-min intraday:<br>2017 年$GBTC，每日和 5 分钟日内：</p>
+    <img src="images/image14.png" alt="$GBTC in 2017">
 
     <blockquote>
-      “There is nothing new on Wall Street or in stock speculation. What has happened in the past will happen again, and again, and again.” – Jesse Livermore<br>
-      “华尔街和股市投机都没有什么新鲜事。过去发生的事情会一再重演，一次又一次。” —— 杰西·利弗莫尔
+        “There is nothing new on Wall Street or in stock speculation. What has happened in the past will happen again,
+        and again, and again. – Jesse Livermore”<br>
+        “华尔街和股市投机都没有什么新鲜事。过去发生的事情会一再重演，一次又一次。” —— 杰西·利弗莫尔
     </blockquote>
 
-    <p>我所有的配置都是为了找到快速走动股票的低风险入市点。关键是找到紧凑、高概率的入市区块，这样你才能在交易中拥有高风险/回报。关键是让初始风险达到 5–20+ 倍。你只需 25–30% 的胜率就能赚得非常赚钱，关键是小亏大赢。</p>
+    <p>All of my setups are about finding low risk entries on fast moving stocks. It ’s all about finding tight, high
+        probability areas to enter, so you can have high risk/reward on your trades. It ’s all about making 5-20+ times
+        your initial risk. You can be wildly profitable with having just a 25-30% winrate, it ’s all about having small
+        losses and big winners.</p>
+    <p>我所有的配置都是为了找到快速走动股票的低风险入市点。关键是找到紧凑、高概率的入市区块，这样你才能在交易中拥有高风险/回报。关键是让初始风险达到5-20+
+        倍。你只需25-30% 的胜率就能赚得非常赚钱，关键是小亏大赢。</p>
 
-    <p>我有一个 Evernote 数据库，我用来跟踪这些配置，收集了成千上万个。这些图表大多来自我的 Evernote 数据库。我可能花了 1000+ 小时构建它，回溯了几十年来数千只股票来寻找这些配置。</p>
+    <p>I have an Evernote database I worked on for 7-8 years where I track these setups and I have a collection of
+        thousands of them. Most of these charts are from my Evernote database. I have probably spent 1000+ hours
+        building it and went back decades on thousands of stocks to find these setups.</p>
+    <p>我有一个 Evernote 数据库，我用来跟踪这些配置，收集了成千上万个。这些图表大多来自我的 Evernote 数据库。我可能花了
+        1000+ 小时构建它，回溯了几十年来数千只股票来寻找这些配置。</p>
 
+    <p>Be creative, there are at least a couple of other setups I can think of that you can trade with great success but
+        I have chosen these three for myself.</p>
     <p>发挥创意，我能想到至少还有几个其他配置可以成功交易，但我自己选了这三种。</p>
 
+    <p>You need to look at every stock in the US stock markets as far back as you can and look for reoccurring patterns.
+        I personally have also checked the biggest stocks in every international stock market.</p>
     <p>你需要尽可能追溯美国股市的每一只股票，寻找反复出现的模式。我个人也查看过每个国际股市中最大的股票。</p>
 
+    <p>If you want to become financially independent and change your life, if you want to be filthy rich or just want
+        the security and the freedom that comes with it – you have to put in the work!</p>
     <p>如果你想实现经济独立并改变生活，如果你想变得极其富有，或者只是想要随之而来的安全感和自由——你必须付出努力！</p>
 
-    <p><strong>Good luck! 祝你好运！</strong></p>
-  </main>
+    <p>Good luck! 祝你好运！</p>
+</article>
 
-  <footer>
+<footer>
     <p>Qullamaggie - Copyright © 2025 All Rights Reserved.</p>
-  </footer>
+</footer>
 
 </body>
 </html>
